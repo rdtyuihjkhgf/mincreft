@@ -80,7 +80,7 @@ function my_keydown(e){
         console.log("m")
     }
     if(keyPressed=='87'){
-        new_image("log.png");
+        new_image("log.jpg");
         console.log("w")
     }
     if(keyPressed=='78'){
@@ -98,6 +98,10 @@ function my_keydown(e){
     if(keyPressed=='72'){
         new_image("haybrick.png");
         console.log("h")
+    }
+    if(keyPressed=='8'){
+        new_image("delete.png");
+        console.log("backspace")
     }
 }
 function up(){
